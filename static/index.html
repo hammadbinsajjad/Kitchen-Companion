@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Kitchen Companion</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="logo">🍳</span> Kitchen Companion
+  <span class="sub">local AI</span>
+</header>
+
+<main id="chat">
+  <div class="empty" id="empty">
+    <div class="big">🥑</div>
+    <h2>Kitchen Companion</h2>
+    <p>Fridge ki photo bhejo 📷 ya seedha type karo —<br>main bataunga kya bana sakte hain.</p>
+  </div>
+</main>
+
+<div id="chips-bar" hidden>
+  <button id="chips-toggle" title="Collapse/Expand" aria-label="Collapse ingredients">▾</button>
+  <span id="chips-hint" hidden>Ingredients dekhne ke liye arrow dabayein</span>
+  <div id="chips" class="chips"></div>
+</div>
+
+<div id="attachments" class="attachments" hidden></div>
+
+<div class="composer">
+  <input type="file" id="camera-input" accept="image/*" capture="environment" multiple hidden>
+  <input type="file" id="gallery-input" accept="image/*" multiple hidden>
+  <button id="camera-btn" title="Camera" aria-label="Camera">📷</button>
+  <button id="gallery-btn" title="Upload" aria-label="Upload">🖼</button>
+  <button id="mic-btn" title="Click to Record" aria-label="Record">🎤</button>
+  <textarea id="context" rows="1" placeholder="kya mood hai?"></textarea>
+  <button id="send-btn" class="primary" aria-label="Send">➤</button>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

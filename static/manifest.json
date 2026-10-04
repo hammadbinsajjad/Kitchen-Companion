@@ -1,0 +1,9 @@
+{
+  "name": "Kitchen Companion",
+  "short_name": "Kitchen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f2ec",
+  "theme_color": "#2f6f4f",
+  "icons": []
+}

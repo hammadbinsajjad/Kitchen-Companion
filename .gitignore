@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Debug artifacts (test photos, saved audio clips)
+temp/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
