@@ -6,6 +6,5 @@ llama serve \
   --temp 1.0 \
   --top-p 0.95 \
   --top-k 64 \
-  --ctx-size 65536 \
   --spec-type draft-mtp --spec-draft-n-max 2 \
   --jinja

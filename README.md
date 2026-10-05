@@ -4,6 +4,12 @@ Photograph your fridge, fix the detected ingredient list on screen, and get meal
 suggestions in Roman Urdu from a kitchen companion chatbot that answers typed
 **and spoken** follow-ups.
 
+![Fridge photos in, Roman Urdu meal suggestions out](assets/screenshot-1.png)
+
+Tap any dish card to get numbered cooking steps:
+
+![Steps for a dish, tap the card](assets/screenshot-2.png)
+
 All AI runs **locally** on your laptop via llama.cpp — zero cloud calls at runtime.
 
 ## Run it
